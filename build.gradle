@@ -43,7 +43,7 @@ publishing {
     }
     repositories {
         maven {
-            name 'nexus'
+            name 'maven'
             url "https://nexus-app.wiprodigitalrig.com/repository/gradle-releases/"
             credentials {
                 username project.repoUser
